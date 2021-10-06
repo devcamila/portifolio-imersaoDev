@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  background-image: linear-gradient(
+    to left bottom,
+    #458588,
+    #368685,
+    #278880,
+    #178879,
+    #058971,
+    #2c9170,
+    #44996e,
+    #59a16c,
+    #81b376,
+    #a7c584,
+    #cbd695,
+    #eee8a9
+  );
+
+  background-repeat: no-repeat;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  background: #f3f3f3;
+  color: #323232;
+  margin: 64px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 6px 6px 6px rgba(83, 83, 83, 0.734);
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(150, 149, 149, 0.734);
+  margin: 40px 30px 50px 0px;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-family: "Fugaz One", cursive;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.titulo :last-child {
+  font-weight: 400;
+  font-size: 18px;
+  color: #058971;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #323232;
+  color: #fff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #323232;
+}
+
+.portfolio {
+  margin: 34px auto 0px auto;
+  width: 80%;
+}
+
+.projetos {
+  max-height: 400px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 32px;
+  background: linear-gradient(
+    230.65deg,
+    rgba(150, 89, 108, 0.8) 27.49%,
+    #9cc8 83.19%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(150, 149, 149, 0.734);
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.duo {
+  padding: 20px;
+  margin: 25px auto 0px auto;
+  width: max-content;
+  border-radius: 10px;
+  background-color: #feffff37;
+}
+
+.duo a {
+  background-color: #05897128;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(52, 50, 50);
+  text-decoration: none;
+}
+
+.tema button {
+  color: #ffffff;
+  background: #058971;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #323232;
+}
+
+.tema button:hover {
+  color: #f7f7f7;
+  background: #323232;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #d0c6c6;
+}
+
+/** Rodapé */
+footer {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.footer-nav {
+  margin: 0;
+}
+
+.footer-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin: auto;
+}
+
+.footer-ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+.footer-ul li a {
+  color: #000;
+  font-size: 25px;
+  margin: auto;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.git:hover,
+.link:hover,
+.twitter:hover {
+  color: #eee8a9;
+  border: none;
+  text-shadow: 0 0 1em #058971;
+}
+
+/** DARK */
+.dark {
+  background-image: linear-gradient(
+    to left bottom,
+    #458588,
+    #368685,
+    #278880,
+    #178879,
+    #058971,
+    #2c9170,
+    #44996e,
+    #59a16c,
+    #81b376,
+    #a7c584,
+    #cbd695,
+    #eee8a9
+  );
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .portfolio {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #202020;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #f7f7f7;
+}
+
+.dark .tema button:hover {
+  color: #323232;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #f7f7f7;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #323232;
+  border: 1.8px solid #323232;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
+}
+
+.dark .footer-ul li a {
+  color: #eee8a9;
+  font-size: 25px;
+  margin: auto;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.dark .git:hover,
+.dark .link:hover,
+.dark .twitter:hover {
+  color: #323232;
+  border: none;
+  text-shadow: 0 0 1em #058971;
+}
